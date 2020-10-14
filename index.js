@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     'airbnb-base',
   ],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   rules: {
     'comma-dangle': [
       'error',
@@ -34,4 +34,7 @@ module.exports = {
     'max-params': ['error', 5],
     'function-paren-newline': ['error', 'consistent'],
   },
+  plugins: [
+    '@babel',
+  ],
 };
