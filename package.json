@@ -1,0 +1,34 @@
+{
+  "name": "@rafalswietek/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configurations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Rafał Świętek <raf.swietek@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/eslint-parser": "^7.11.3",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafalswietek/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rafalswietek/eslint-config/issues"
+  },
+  "homepage": "https://github.com/rafalswietek/eslint-config#readme"
+}
