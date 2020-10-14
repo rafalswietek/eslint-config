@@ -12,10 +12,7 @@
   ],
   "author": "Rafał Świętek <raf.swietek@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "@babel/core": "^7.12.0",
-    "@babel/eslint-parser": "^7.11.5",
-    "@babel/eslint-plugin": "^7.11.5",
+  "peerDependencies": {
     "eslint": "^7.7.0",
     "eslint-config-airbnb-base": "^14.2.0"
   },
